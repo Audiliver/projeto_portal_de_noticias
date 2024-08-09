@@ -43,6 +43,10 @@ a:hover {
  margin-inline: auto;
 }
 
+main {
+  margin-top: 44px;
+}
+
 .content_tag {
   display: inline-block;
   background-color: var(--brand-color-dark);
@@ -59,11 +63,7 @@ h1, h2, h3 {
   font: inherit;
 }
 
-/* utilitary-first */
-.grid {
-  display: grid;
-}
-
-.grid-flow-col {
-  grid-auto-flow: column;
+img {
+  /* Respeita a largura máxima de 100%  */
+  max-width: 100%;
 }

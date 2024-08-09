@@ -1,6 +1,0 @@
-main {
-  margin: 40px 32px 80px;
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
-  grid-template-rows: repeat(3, 3fr);
-}
