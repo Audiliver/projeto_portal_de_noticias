@@ -47,7 +47,7 @@ main {
   margin-top: 44px;
 }
 
-.content_tag {
+.content-tag {
   display: inline-block;
   background-color: var(--brand-color-dark);
   border-radius: 4px;
@@ -55,8 +55,10 @@ main {
   text-align: center;
   color: var(--text-color-primary);
   text-transform: uppercase;
-  font-family: var(--font-family);
   font: var(--text-sm);
+  letter-spacing: 0.04em;
+  /* primeiro número é eixo X e o segundo é eixo Y, já o terceiro número é o blur */
+  box-shadow: 0px 4px 16px rgb(2, 6, 23, 0.25);
 }
 
 h1, h2, h3 {
