@@ -37,6 +37,12 @@ a:hover {
   color: var(--brand-color-light);
 }
 
+.container {
+ max-width: 1280px;
+ padding-inline: 32px;
+ margin-inline: auto;
+}
+
 .content_tag {
   display: inline-block;
   background-color: var(--brand-color-dark);
@@ -51,4 +57,13 @@ a:hover {
 
 h1, h2, h3 {
   font: inherit;
+}
+
+/* utilitary-first */
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
 }
