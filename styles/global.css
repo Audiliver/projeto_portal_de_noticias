@@ -11,17 +11,20 @@
   --stroke-color: #15293b;
   --text-color-primary: #f1f5f9;
   --text-color-secondary: #cbd5e1;
+
   --font-family: "Archivo", sans-serif;
   --text-h1: 800 24px/135% var(--font-family);
   --text-h2: 800 16px/140% var(--font-family);
   --text-h3: 800 14px/140% var(--font-family);
-  --text-md: 600 14px/145% var(--font-family);
-  --text: 400 14px/160% var(--font-family);
+  --text-span: 600 14px/145% var(--font-family);
+  --text-paragraph: 400 14px/160% var(--font-family);
+  --text: 400 16px/140% var(--font-family);
   --text-sm: 500 10px/12px var(--font-family);
 }
 
 body {
-  font-family: 'Archivo', sans-serif;
+  color: var(--text-color-primary);
+  font: var(--text);
   background-color: var(--bg-color);
 }
 
@@ -44,4 +47,8 @@ a:hover {
   text-transform: uppercase;
   font-family: var(--font-family);
   font: var(--text-sm);
+}
+
+h1, h2, h3 {
+  font: inherit;
 }
