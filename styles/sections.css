@@ -21,12 +21,18 @@
       #020617 100%
       );
   }
+
+
   figcaption {
     position: absolute;
     bottom: 0;
     padding: 24px;
+    /* Verifica se tem algo */
+    &:has(.text-lg){
+      padding: 12px;
+    }
     
-    h2 {
+    h2, h3 {
       margin-top: 8px;
     }
     
