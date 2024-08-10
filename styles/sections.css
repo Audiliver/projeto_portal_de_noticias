@@ -114,7 +114,30 @@ section header{
     }
     p {
       margin-top: 8px;
-      font-weight: 900;
+      font-weight: 800;
     }
+  }
+}
+
+article {
+ h3{
+  margin-block: 8px 4px;
+ }
+}
+
+#ads {
+  position: relative;
+
+  img {
+    border-radius: 4px;
+  }
+
+  span {
+  position: absolute;
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  align-self: auto;
+  right: 0%;
   }
 }

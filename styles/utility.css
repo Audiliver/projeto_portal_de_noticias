@@ -15,6 +15,10 @@
   gap: 16px;
 }
 
+.gap-32 {
+  gap: 32px
+}
+
 /* Texto 2x grande */
 .text-2xl {
   font: var(--text-h1);
@@ -41,8 +45,4 @@
 
 .text-paragraph  {
   font: var(--text-paragraph);
-}
-
-.text-sm  {
-  font: var(--text-sm);
 }

@@ -44,10 +44,10 @@ a:hover {
 }
 
 main {
-  margin-top: 44px;
+  margin-block: 44px 76px;
   gap: 80px;
 }
-
+ 
 .content-tag {
   display: inline-block;
   background-color: var(--brand-color-dark);
